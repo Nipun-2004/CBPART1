@@ -21,8 +21,6 @@ public class problem1 {
         for (int i = digits; i > 0; i--) {
             int digit = num / (int) Math.pow(10, i - 1);  // Get the leftmost digit
              num %= (int) Math.pow(10, i - 1);  // Remove the leftmost digit
-
-            // Check the position (1-based from left to right)
             if (i % 2 == 1) {
                 oddsum += digit;
             } else {
