@@ -46,7 +46,7 @@ public static void main(String[] args) {
     int n=4;
     System.out.println("Square");
     printsquare(n);
-    System.out.println("Right Facing Triangle");
+    System.out.println("Right Facing Triangle " );
     printRFT(n);
     System.out.println(" Inverted Right Facing Triangle");
     printINVRFT(n);

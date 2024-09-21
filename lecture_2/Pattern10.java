@@ -1,11 +1,11 @@
 package lecture_2;
 import java.util.Scanner;
-public class Pattern9 {
+public class Pattern10{
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter a Number");
         int n =sc.nextInt();
-        for(int i=1;i<=n;i++){
+        for(int i=n;i>=1;i--){
             //for printing spaces
             for(int k=1; k<=(n-i);k++)
                 System.out.print("  ");
