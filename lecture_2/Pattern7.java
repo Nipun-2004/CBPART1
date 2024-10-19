@@ -13,5 +13,6 @@ public class Pattern7 {
                 System.out.print("  ");
             System.out.println();
         }
+        sc.close();
         }
 }

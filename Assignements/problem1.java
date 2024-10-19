@@ -27,7 +27,7 @@ public class problem1 {
                 evensum += digit;
             }
         }
-
+        scanner.close();
         
         System.out.println("Sum of Odd placed digits is  : " + oddsum);
         System.out.println("Sum of Even placed digits is  : " + evensum);

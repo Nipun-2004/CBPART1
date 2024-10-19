@@ -10,6 +10,6 @@ public class Pattern3 {
         System.err.print("* ");
     }System.out.println(" ");
     }
+    scanner.close();
 }
-    
 }

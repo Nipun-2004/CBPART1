@@ -18,5 +18,6 @@ public class Pattern9 {
                 System.out.print("* ");
             System.out.println();
         }
+        sc.close();
 }
 }
