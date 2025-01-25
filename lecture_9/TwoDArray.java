@@ -1,6 +1,6 @@
 package lecture_9;
 import java.util.Arrays;
-public class TwoDArrays {
+public class TwoDArray {
     static void populate(int[][] nums){
         int n=10;
         for(int i=0;i<nums.length;i++){
